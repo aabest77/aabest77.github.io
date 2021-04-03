@@ -1,0 +1,30 @@
+@charset "utf-8";
+body {
+	background-color:black;
+	background-image: url(bgfix.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}/* CSS Document */
+
+.img-responsive {
+	width: 100%;
+	height:auto;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+
+.gambar {
+	width: 100%;
+	height:auto;
+	margin-top: -20px;
+}
+
+.game {
+	width: 100%;
+	width:200px;
+	height:auto;
+	margin-top: -720px;
+	margin-right: 20px;
+}
+
