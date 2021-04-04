@@ -1,9 +1,10 @@
 @charset "utf-8";
 body {
-	background-color:black;
+	height: 100%;
 	background-image: url(bgfix.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-attachment:fixed;
 }/* CSS Document */
 
 .img-responsive {
@@ -13,18 +14,15 @@ body {
 	margin-top: auto;
 }
 
+.navbar{
+	background-color: black;
+	opacity: 0.8;
+}
+
 
 .gambar {
 	width: 100%;
 	height:auto;
-	margin-top: -20px;
+	margin-top: -60px;
+	background-attachment:fixed;
 }
-
-.game {
-	width: 100%;
-	width:200px;
-	height:auto;
-	margin-top: -720px;
-	margin-right: 20px;
-}
-

@@ -3,15 +3,16 @@
 
 @charset "utf-8";
 body {
-	background-color:black;
+	height: 100%;
 	background-image: url(bgfix.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-attachment:fixed;
 }/* CSS Document */
 
 .img-responsive {
-	width: 100%;
-	width: 200px;
+	width: 200%;
+	width: 100px;
 	height:auto;
 	display : block;
 	margin-left:auto;
@@ -19,99 +20,84 @@ body {
 	
 }
 
-.img-responsive2 {
+.play {
 	width: 100%;
-	width: 200px;
+	width: 250px;
 	height:auto;
 	display : block;
+	margin-top: 25px;
 	margin-left:auto;
 	margin-right: auto;
-	margin-top: 20px;
-
+	
 }
 
-.kissplus {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-left: 50px;
-	margin-top: 20px;
+
+.navbar{
+	background-color: black;
+	opacity: 0.8;
 }
 
-.kiss2 {
-	width: 100%;
+div.content {
+	height: 123px;
 	width: 100px;
-	height:auto;
-	margin-top: 20px;
-}
-.newtown {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-top: 20px;
+	float:left;
+	margin: 5px;
 }
 
-.ace {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-left: 50px;
-	margin-top: 10px;
-}
-.xe {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-top: 10px;
-}
-.pussy88 {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-top: 10px;
-}
-.playboy {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-left: 50px;
-	margin-top: 10px;
+div#ace {
+	background-image:url(ace.png);
+	background-size :cover;
 }
 
-.megga {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-top: 10px;
-
+div#kisspluss {
+	background-image:url(kisspluss.png);
+	background-size :cover;
 }
 
-.lpe88 {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-top: 10px;
+div#kises {
+	background-image:url(kises.png);
+	background-size :cover;
 }
 
-.kiss {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-left: 50px;
-	margin-top: 10px;
+div#newtown {
+	background-image:url(newtown.png);
+	background-size :cover;
+}
+div#xe {
+	background-image:url(xe.png);
+	background-size :cover;
 }
 
-.evo88 {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-top: 10px;
+div#pussy88 {
+	background-image:url(pussy88.png);
+	background-size :cover;
 }
 
-.jokker {
-	width: 100%;
-	width: 100px;
-	height:auto;
-	margin-top: 10px;
+div#playboy {
+	background-image:url(playboy.png);
+	background-size :cover;
 }
 
+div#megga {
+	background-image:url(megga.png);
+	background-size :cover;
+}
+
+div#lpe88 {
+	background-image:url(lpe88.png);
+	background-size :cover;
+}
+
+div#kiss {
+	background-image:url(kiss.png);
+	background-size :cover;
+}
+div#evo88 {
+	background-image:url(evo88.png);
+	background-size :cover;
+}
+
+div#jokker {
+	background-image:url(jokker.png);
+	background-size :cover;
+}

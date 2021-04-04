@@ -2,26 +2,54 @@
 /* CSS Document */
 
 body {
-	background-color:black;
+	height: 100%;
 	background-image: url(bgfix.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-attachment:fixed;
 }
 
 .img-responsive {
 	width: 100%;
 	height:auto;
-	display : block;
 	margin-left:auto;
 	margin-right: auto;
 }
+
+.bank {
+	width: 100%;
+	height:auto;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.navbar{
+	background-color: black;
+	opacity: 0.8;
+}
+
 .top-up
 {
-	background-color:gold;
+	background-color: #feae1f;
 	height:auto;
 	display : block;
 	margin-top: 15px;
 	margin-left: 35px;
+}
+
+.btn
+{
+	background-color: #feae1f;
+}
+
+.btn2
+{
+	background-color:#CCC;
+}
+
+.form {
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .bank {
