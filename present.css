@@ -30,7 +30,7 @@ body {
 
 .video {
 	width:100%;
-	height:1920px;
+	height:auto;
 	margin-top: auto;
 	margin-right: auto;
 
